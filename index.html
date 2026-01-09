@@ -12,9 +12,8 @@
       background: #f7f7f7;
     }
 
-  
     /* مساحة البوت داخل الصفحة */
-    #vf-chat {
+    #cyberbotH {
       width: 100%;
       height: 100vh;  /* خليها كاملة مثل صفحة البوت الأول */
       background: #fff;
@@ -22,11 +21,10 @@
   </style>
 </head>
 
-
 <body>
 
   <!-- هذا هو العنصر اللي البوت ينزرع داخله -->
-  <div id="vf-chat"></div>
+  <div id="cyberbotH"></div>
 
   <script type="text/javascript">
   (function(d, t) {
@@ -45,10 +43,12 @@
           }
         });
       }
-      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+      v.type = "text/javascript";
+      s.parentNode.insertBefore(v, s);
   })(document, 'script');
-</script>
- 
+  </script>
 
 </body>
 </html>
+
